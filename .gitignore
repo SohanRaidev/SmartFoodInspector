@@ -1,0 +1,61 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-related files
+env/
+venv/
+*.env
+*.venv
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore system and IDE specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore virtual environments
+*.env
+*.venv
+
+# Ignore logs and temporary files
+*.log
+*.csv
+*.sqlite
+*.h5
+*.json
+*.db
+
+# Ignore model weights
+*.h5
+*.ckpt
+*.keras
+*.tflite
+runs/
+
+# Ignore datasets
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Ignore Colab-specific files
+content/
+
+# Ignore any cached files or directories
+*.cache
+*.bak
+*.swp
+
+# Ignore auto-generated config files
+*.cfg
+*.yaml
